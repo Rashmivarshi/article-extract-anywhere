@@ -1,13 +1,13 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/client/.env
-/client/node_modules
-/server/.env
+node_modules
+env
+/.env
 /server/node_modules
 /.pnp
 .pnp.js
+.env
 
 # testing
 /coverage
@@ -15,10 +15,10 @@
 # production
 /build
 
-.env
+/.env
 # misc
 .DS_Store
-.env.local
+.env
 .env.development.local
 .env.test.local
 .env.production.local
